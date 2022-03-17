@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai19</title>
+    <style>
+        ul li {
+            list-style-type: none;
+            display: inline-table;
+            width: 150px;
+            background-color: rgb(27, 22, 22);
+            color: rgba(192, 187, 168, 0.849);
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+            #a  :hover{
+           background-color: rgb(60, 218, 73);
+           color: rgb(235, 231, 16);
+        
+        }
+        li:hover ul{
+           
+            left: 100px;
+            background-color: rgb(231, 140, 2); margin:0;
+            display:list-item;
+         
+        }
+        li>ul{
+            display: none;
+            list-style: none;
+            color: aqua;
+        }
+        #b :hover{
+            background-color: rgb(21, 240, 112);
+            color: rgb(0, 7, 4);
+            list-style-type: none;
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <nav>
+    <ul id="a">
+        <li>Home</li>
+        <li>Introduction</li>
+        <li>Portfolio
+            <ul id="b">
+                <li>Photography</li>
+                <li>Web & User Interface Design</li>
+                <li>Illustration</li>
+            </ul>
+        </li>
+        <li>News</li>
+        <li>Contact</li>
+    </ul>
+
+</body>
+</html>
